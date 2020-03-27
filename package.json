@@ -1,0 +1,14 @@
+{
+  "name": "express-invitation",
+  "version": "1.0.0",
+  "description": "a invitation card form using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
