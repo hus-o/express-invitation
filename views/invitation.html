@@ -9,7 +9,7 @@
 <body class="container">
     <main>
         <div class="main">
-        <form>
+        <form action="/card" method="POST">
             <label for="greeting">Greeting</label>
             <input type="text" id="greeting" name="greeting">
             <br>
@@ -24,7 +24,7 @@
             <br>
             <label for="message">Enter a message</label>
             <br>
-            <textarea id="message" rows="5" cols="30"></textarea>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
             <br>
             <input type="submit" value="Submit">
         </form>
